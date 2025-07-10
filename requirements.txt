@@ -1,11 +1,10 @@
-# requirements.txt
 streamlit>=1.24.0
 joblib
-plotly
 scikit-learn
 pandas
 numpy
-
-# NEW additions:
-google-generative-ai     # for `import google.generativeai`
-matplotlib               # for `import matplotlib.pyplot`
+plotly
+google-generative-ai
+matplotlib
+markdown-it-py==3.0.0
+typing_extensions==4.10.0
