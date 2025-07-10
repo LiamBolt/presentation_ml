@@ -1,0 +1,6 @@
+streamlit>=1.24.0           # or whatever minimum you’re targeting
+joblib
+plotly
+scikit-learn                # if you’re using joblib to load sklearn models
+pandas                      # if you read dataframes
+numpy                       # usually needed by sklearn/models
