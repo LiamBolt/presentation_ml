@@ -4,7 +4,8 @@ scikit-learn
 pandas
 numpy
 plotly
-google-generative-ai
+google-generativeai
 matplotlib
+
 markdown-it-py==3.0.0
 typing_extensions==4.10.0
