@@ -1,0 +1,147 @@
+/* Main layout */
+.main {
+    padding: 1rem 2rem;
+}
+
+/* Header styling */
+.header {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+
+.header h1 {
+    color: #1E3A8A;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    color: #64748B;
+    font-size: 1.2rem;
+}
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748B;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Risk categories */
+.risk-low {
+    color: #15803D;
+    font-weight: bold;
+}
+
+.risk-medium {
+    color: #D97706;
+    font-weight: bold;
+}
+
+.risk-high {
+    color: #DC2626;
+    font-weight: bold;
+}
+
+/* Form styling */
+.stForm {
+    background-color: #F8FAFC;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #E2E8F0;
+}
+
+/* Card styling */
+.card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+    border: 1px solid #E2E8F0;
+}
+
+/* Button styling */
+.stButton>button {
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #1E40AF;
+    color: white;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.download-btn:hover {
+    background-color: #1E3A8A;
+}
+
+/* Disclaimer */
+.disclaimer {
+    font-size: 0.8rem;
+    color: #64748B;
+    font-style: italic;
+    margin-top: 1.5rem;
+}
+
+/* Feature importance */
+.feature-importance {
+    margin-top: 1.5rem;
+}
+
+/* Metrics styling */
+.metric-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1E40AF;
+}
+
+.metric-label {
+    font-size: 0.9rem;
+    color: #64748B;
+}
+
+/* Chatbot styling */
+.chat-message {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.user-message {
+    background-color: #DBEAFE;
+    text-align: right;
+}
+
+.assistant-message {
+    background-color: #F8FAFC;
+    border-left: 3px solid #1E40AF;
+}
+
+/* Tab styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 1rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 2.5rem;
+    white-space: pre-wrap;
+}
